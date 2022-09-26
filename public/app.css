@@ -1,0 +1,95 @@
+
+/* add user page */
+.firstbg{
+    height: 100vh;
+    background-image: url(img/bg_1.png);
+}
+.secondbg{
+    width: 300px;
+    padding-top:25vh;
+    margin-left: 15vw;   
+}
+.hello{
+    padding-left: 17vw;
+    padding-top: 25vh;
+    width: 500px;
+}
+
+.green{
+    color: #0F6048;
+}
+.white{
+    color: white;
+    line-height: normal;
+}
+.addUser{
+    color: #58AF9B;
+}
+.save{
+    width: 300px;
+    border: 0px ;
+    border-radius: 25px;
+    height: 40px;
+    background:linear-gradient(#179570 100%,#58AF9B 100%);
+    color: white;
+}
+
+/* user list page */
+
+
+
+.table{
+    margin-top: 10vh;
+    margin-left: 15vw;
+    width: 1000px;
+
+}
+
+th.name{
+    background-color: #58AF9B;
+    /* border-radius: 5px; */
+    width: 300px;
+
+}
+th.country{
+    background-color: #58AF9B;
+    /* border-radius: 5px; */
+    text-align: center; 
+    /* transform: translateX(10px);  */
+    width: 300px;
+      
+}
+th.date{
+    background-color: #58AF9B;
+    /* border-radius: 5px; */
+    text-align: right;  
+    /* transform: translateX(20px);    */
+    width: 300px;
+  
+}
+tr.obj{
+    background-color: #E1F8F6;
+    transform: translateY(10px);
+    width: 1050;
+    border-radius: 5px;
+}
+td.countryObj{
+    text-align: center;
+}
+td.dateObj{
+    text-align: right;
+}
+
+
+.greentxt{
+    color: #58AF9B;
+    margin-top:15vh;
+    margin-left:40vw;
+}
+.error{
+    color: red;
+}
+.add{
+    text-align: right;
+}
+
